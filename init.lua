@@ -1,2 +1,2 @@
-require("DarshanConfig")
+require("DarshanConfig.remap")
 print("Hello")
