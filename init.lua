@@ -1,2 +1,4 @@
-require("DarshanConfig.remap")
+require("Config.remap")
+require("Config.lazy")
+
 print("Hello")
