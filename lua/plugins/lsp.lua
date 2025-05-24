@@ -9,15 +9,12 @@ return {
 				capabilities = caps
 			})
 			lspconfig.ts_ls.setup({
-
 				capabilities = caps
 			})
-
 			lspconfig.tailwindcss.setup({
 				capabilities = caps
 			})
 			lspconfig.lua_ls.setup({
-
 				capabilities = caps,
 				settings = {
 					Lua = {
@@ -27,8 +24,17 @@ return {
 					},
 				},
 			})
-		
-
+			lspconfig.dockerls.setup({
+			capabilities = caps
+			})
+			lspconfig.yamlls.setup({
+				capabilities = caps,
+				yaml = {
+					schemas = {
+						["https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json"] = "docker-compose.yml",
+					},
+				}
+			})
     end,
   }
 }
