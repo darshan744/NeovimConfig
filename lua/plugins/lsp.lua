@@ -35,6 +35,7 @@ return {
 					},
 				}
 			})
+			lspconfig.java_language_server.setup({capabilities = caps})
     end,
   }
 }
