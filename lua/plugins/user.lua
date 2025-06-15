@@ -4,8 +4,4 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 -- PLEASE REMOVE THE EXAMPLES YOU HAVE NO INTEREST IN BEFORE ENABLING THIS FILE
 -- Here are some examples:
 
-return {
-  opts = {
-    colorscheme = "vscode",
-  },
-}
+return {}
